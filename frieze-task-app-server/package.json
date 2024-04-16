@@ -1,0 +1,23 @@
+{
+  "name": "frieze-task-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon -e js,ts --exec node --trace-warnings -r @swc-node/register index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.9.0",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.5"
+  }
+}
